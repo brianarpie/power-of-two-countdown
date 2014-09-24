@@ -4,6 +4,6 @@ app.directive('countdown', function() {
   return {
     restrict: 'E',
     controller: 'TickTockController',
-    templateUrl: '../../pages/_countdown.html'
+    templateUrl: 'assets/pages/_countdown.html'
   }
 });
