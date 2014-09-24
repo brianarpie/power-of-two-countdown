@@ -7,14 +7,28 @@
 <script src="bower_components/angularjs-ordinal-filter/ordinal.js"></script>
 <script src="assets/javascripts/countdownApp.js"></script>
 <script src="assets/javascripts/controllers/tickTockController.js"></script>
-<script src="assets/javascripts/directives/countdownDirective.js"></script>
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <title>Anniversary Countdown Timer</title>
 </head>
 <body ng-app="CountdownApp">
   <div ng-controller="TickTockController">
 	<h2>Power of Two Anniversary Countdown Timer</h2>
-  <countdown></countdown>
+  <hr>
+    Now: {{now | date:'medium'}}
+  <hr>
+    {{numberOfAnniversary | ordinal}} Anniversary: {{dateOfNextAnniversary | date:'medium'}}
+  <hr>
+  <br>
+  <br>
+  <hr>
+    That's {{days}} days
+  <hr>
+   or {{hours}} hours
+  <hr>
+    or {{minutes}} minutes
+  <hr>
+    or {{seconds}} seconds
+  <hr>
   我愛你
 </body>
 </html>
