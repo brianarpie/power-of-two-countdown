@@ -1,0 +1,17 @@
+{
+  "name": "anniversary_countdown",
+  "version": "0.0.0",
+  "authors": [
+    "Brian Arpie brian.arpie@gmail.com"
+  ],
+  "description": "classified",
+  "license": "MIT",
+  "homepage": "count.buwuwei.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

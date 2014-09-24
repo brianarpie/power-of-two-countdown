@@ -1,0 +1,1 @@
+angular.module('CountdownApp', ['ngRoute', 'ordinal']);
